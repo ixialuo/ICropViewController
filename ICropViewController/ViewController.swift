@@ -23,10 +23,10 @@ class ViewController: UIViewController {
 
     @IBAction func selectedPhotoBtnAction(_ sender: UIButton) {
         
-        IImagePickerManger.shared.selectedStyle = .multiple
-        IImagePickerManger.shared.editingStyle = .custom
-        IImagePickerManger.shared.delegate = self
-        IImagePickerManger.shared.showImageActionSheet(invoker: self)
+        IImagePickerManager.shared.selectedStyle = .multiple
+        IImagePickerManager.shared.editingStyle = .custom
+        IImagePickerManager.shared.delegate = self
+        IImagePickerManager.shared.showImageActionSheet(invoker: self)
         
     }
     

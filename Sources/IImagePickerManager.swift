@@ -42,9 +42,9 @@ public struct CTAssetsPickerControllerStyle {
 
 
 //MARK: - IImagePickerManger
-open class IImagePickerManger: NSObject {
+open class IImagePickerManager: NSObject {
 
-    open static let shared = IImagePickerManger()
+    open static let shared = IImagePickerManager()
     open weak var delegate: IImagePickerMangerDelegate?
     
     open var editingStyle = IImagePickerEditingStyle.none
@@ -125,7 +125,7 @@ open class IImagePickerManger: NSObject {
 
 
 //MARK: - UINavigationControllerDelegate, UIImagePickerControllerDelegate
-extension IImagePickerManger: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+extension IImagePickerManager: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         switch editingStyle {
@@ -179,7 +179,7 @@ extension IImagePickerManger: UINavigationControllerDelegate, UIImagePickerContr
 
 
 //MARK: - TOCropViewControllerDelegate
-extension IImagePickerManger: TOCropViewControllerDelegate {
+extension IImagePickerManager: TOCropViewControllerDelegate {
     
     public func cropViewController(_ cropViewController: TOCropViewController, didCropToImage image: UIImage, rect cropRect: CGRect, angle: Int) {
         cropViewController.dismiss(animated: true) { 
@@ -195,7 +195,7 @@ extension IImagePickerManger: TOCropViewControllerDelegate {
 
 
 //MARK: - CTAssetsPickerControllerDelegate
-extension IImagePickerManger: CTAssetsPickerControllerDelegate {
+extension IImagePickerManager: CTAssetsPickerControllerDelegate {
     
     public func assetsPickerController(_ picker: CTAssetsPickerController!, didFinishPickingAssets assets: [Any]!) {
         
