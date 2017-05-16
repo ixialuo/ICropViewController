@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C6E0D302355A0C2FC1E7A66F /* Pods_ICropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D4CA9B24806DEA1A08D64B /* Pods_ICropViewController.framework */; };
-		CE0ECED11ECAFAEC00FAC749 /* IImagePickerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECED01ECAFAEC00FAC749 /* IImagePickerManger.swift */; };
+		CE0ECED41ECAFF6B00FAC749 /* IImagePickerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECED31ECAFF6B00FAC749 /* IImagePickerManger.swift */; };
 		CE8FC59C1EC198CF00BE3C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FC59B1EC198CF00BE3C79 /* AppDelegate.swift */; };
 		CE8FC59E1EC198CF00BE3C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FC59D1EC198CF00BE3C79 /* ViewController.swift */; };
 		CE8FC5A11EC198CF00BE3C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8FC59F1EC198CF00BE3C79 /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		504D63C0F51F35E5AD19F0C0 /* Pods-ICropViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICropViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICropViewController/Pods-ICropViewController.release.xcconfig"; sourceTree = "<group>"; };
 		B3D4CA9B24806DEA1A08D64B /* Pods_ICropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0ECED01ECAFAEC00FAC749 /* IImagePickerManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IImagePickerManger.swift; sourceTree = "<group>"; };
+		CE0ECED31ECAFF6B00FAC749 /* IImagePickerManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IImagePickerManger.swift; sourceTree = "<group>"; };
 		CE8FC5981EC198CF00BE3C79 /* ICropViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICropViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8FC59B1EC198CF00BE3C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8FC59D1EC198CF00BE3C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,18 +63,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE0ECECF1ECAFAEC00FAC749 /* Source */ = {
+		CE0ECED21ECAFF6B00FAC749 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CE0ECED01ECAFAEC00FAC749 /* IImagePickerManger.swift */,
+				CE0ECED31ECAFF6B00FAC749 /* IImagePickerManger.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		CE8FC58F1EC198CF00BE3C79 = {
 			isa = PBXGroup;
 			children = (
-				CE0ECECF1ECAFAEC00FAC749 /* Source */,
+				CE0ECED21ECAFF6B00FAC749 /* Sources */,
 				CE8FC59A1EC198CF00BE3C79 /* ICropViewController */,
 				CE8FC5991EC198CF00BE3C79 /* Products */,
 				5071EE81461EF82091A649CC /* Pods */,
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0ECED11ECAFAEC00FAC749 /* IImagePickerManger.swift in Sources */,
+				CE0ECED41ECAFF6B00FAC749 /* IImagePickerManger.swift in Sources */,
 				CE8FC59E1EC198CF00BE3C79 /* ViewController.swift in Sources */,
 				CE8FC59C1EC198CF00BE3C79 /* AppDelegate.swift in Sources */,
 			);
